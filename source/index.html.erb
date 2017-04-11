@@ -1,5 +1,5 @@
 ---
-title: Le Wagon 2-hour landing workshop
+title: Le Wagon 2-hour workshop
 ---
 
 <%= partial "components/banner" %>
@@ -14,7 +14,9 @@ title: Le Wagon 2-hour landing workshop
         <ul>
           <li>Please install <a href="https://www.sublimetext.com/">SublimeText</a></li>
           <li>Programmers do not use Word or PPT, they need a text editor for code, markup and way more...</li>
-          <li>Let's make your first landing page.</li>
+          <li>The objective of today is to code your profile page and put it online, like this example. Go Go Go!!</li>
+          <li><a href="http://lewagon.github.io/html-css-challenges/04-advanced-selectors/">Example 1</a></li>
+          <li><a href="https://tgenaitay.github.io/profile/">Example 2</a></li>
         </ul>
       </section>
 
@@ -45,12 +47,9 @@ title: Le Wagon 2-hour landing workshop
           <li>
             To save time, just right-click on the following images and save them in your <code>images</code> folder
             <ul class="list-inline features">
-              <li><img src="images/open.png" alt=""></li>
-              <li><img src="images/meeting.png" alt=""></li>
-              <li><img src="images/office.png" alt=""></li>
-              <li><img src="images/event.png" alt=""></li>
-              <li><img src="images/shanghai.jpg" alt="" width="200"></li>
-              <li><img src="images/xnode.png" alt="" width="150"></li>
+              <li><img src="images/17hi.png" alt=""></li>
+              <li><img src="images/airbnb.png" alt=""></li>
+              <li><img src="images/sketch.png" alt=""></li>
             </ul>
           </li>
           <li>Then start with this HTML code in <code>index.html</code></li>
@@ -59,29 +58,28 @@ title: Le Wagon 2-hour landing workshop
   &lt;html&gt;
     &lt;head&gt;
       &lt;meta charset="utf-8"&gt;
-      &lt;title&gt;Xnode playground landing&lt;/title&gt;
+      &lt;title&gt;Your name comes here&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
-      &lt;h1&gt;We Help Startups & Entrepreneurs Create the Future...&lt;/h1&gt;
-      &lt;p&gt;Xnode is also a place to learn to code...&lt;/p&gt;
+      &lt;h1&gt;Your name here&lt;/h1&gt;
+      &lt;p&gt;The position you have/look for&lt;/p&gt;
+      &lt;h2&gt;Things I like&lt;/h2&gt;
+      &lt;img src="images/sketch.png" alt="picture description"&gt;
+      &lt;h3&gt;Sketch app&lt;/h3&gt;
+      &lt;p&gt;Forget about Photoshop: Sketch gives you the power, flexibility and speed you always wanted in a lightweight and easy-to-use design app. Finally you can focus on what you do best&lt;/p&gt;
+      &lt;a href="https://www.sketchapp.com/"&gt;Download sketch&lt;/a&gt;
 
-      &lt;img src="images/open.png" alt="picture description"&gt;
-      &lt;h2&gt;Open seats&lt;/h2&gt;
-      &lt;p&gt;A very, &lt;strong&gt;very&lt;/strong&gt; open space&lt;/p&gt;
+      &lt;img src="images/17hi.png" alt="picture description"&gt;
+      &lt;h3&gt;17Hi&lt;/h3&gt;
+      &lt;p&gt;A night out in Shanghai and plenty of bars await. Sifting through the countless choices, how do you where to find that perfect drink? Join 17Hi club. Enjoy one free cocktail every day at bars on this app.&lt;/p&gt;
+      &lt;a href="https://itunes.apple.com/us/app/17hi/id1175998644?mt=8/"&gt;Download 17Hi&lt;/a&gt;
 
-      &lt;img src="images/meeting.png" alt="picture description"&gt;
-      &lt;h2&gt;Meetings&lt;/h2&gt;
-      &lt;p&gt;A meeting place &lt;strong&gt;for your business&lt;/strong&gt;&lt;/p&gt;
+      &lt;img src="images/airbnb.png" alt="picture description"&gt;
+      &lt;h3&gt;Airbnb&lt;/h3&gt;
+      &lt;p&gt;A worldwide online community marketplace that connects people looking to rent their homes with travelers who are looking for accommodations.&lt;/p&gt;
+      &lt;a href="https://www.airbnb.com/rooms/9289518"&gt;Stay at my place&lt;/a&gt;
 
-      &lt;img src="images/office.png" alt="picture description"&gt;
-      &lt;h2&gt;Offices&lt;/h2&gt;
-      &lt;p&gt;A workspace &lt;strong&gt;to rent&lt;/strong&gt; for your team&lt;/p&gt;
 
-      &lt;img src="images/event.png" alt="picture description"&gt;
-      &lt;h2&gt;Events&lt;/h2&gt;
-      &lt;p>A cool space &lt;strong&gt;to run your events&lt;/strong&gt;&lt;/p&gt;
-
-      &lt;p&gt;This is a playground landing ©Le Wagon x Xnode&lt;/p&gt;
     &lt;/body&gt;
   &lt;/html&gt;
 </code></pre>
@@ -144,36 +142,29 @@ a:hover {
 
 <pre>
 <code>
+&lt;div&gt;
     &lt;div&gt;
-      &lt;h1&gt;We Help Startups & Entrepreneurs Create the Future...&lt;/h1&gt;
-      &lt;p&gt;Xnode is also a place to learn to code...&lt;/p&gt;
-    &lt;/div&gt;
-      &lt;img src="images/open.png" alt="picture description"&gt;
-      &lt;h2&gt;Open seats&lt;/h2&gt;
-      &lt;p&gt;A very, &lt;strong&gt;very&lt;/strong&gt; open space&lt;/p&gt;
-    &lt;div&gt;
-      &lt;img src="images/meeting.png" alt="picture description"&gt;
-      &lt;h2&gt;Meetings&lt;/h2&gt;
-      &lt;p&gt;A meeting place &lt;strong&gt;for your business&lt;/strong&gt;&lt;/p&gt;
+      &lt;h1&gt;Your name here&lt;/h1&gt;
+      &lt;p&gt;The position you have/look for&lt;/p&gt;
     &lt;/div&gt;
     &lt;div&gt;
-      &lt;img src="images/office.png" alt="picture description"&gt;
-      &lt;h2&gt;Offices&lt;/h2&gt;
-      &lt;p&gt;A workspace &lt;strong&gt;to rent&lt;/strong&gt; for your team&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;img src="images/event.png" alt="picture description"&gt;
-      &lt;h2&gt;Events&lt;/h2&gt;
-      &lt;p>A cool space &lt;strong&gt;to run your events&lt;/strong&gt;&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;form action=""&gt;
-        &lt;input type="text" placeholder="Email here"&gt;
-        &lt;input type="submit" value="Book a tour!"&gt;
-      &lt;/form&gt;
+      &lt;h2&gt;Things I like&lt;/h2&gt;
+      &lt;img src="images/sketch.png" alt="picture description"&gt;
+      &lt;h3&gt;Sketch app&lt;/h3&gt;
+      &lt;p&gt;Forget about Photoshop: Sketch gives you the power, flexibility and speed you always wanted in a lightweight and easy-to-use design app. Finally you can focus on what you do best&lt;/p&gt;
+      &lt;a href="https://www.sketchapp.com/"&gt;Download sketch&lt;/a&gt;
 
-      &lt;p&gt;This is a playground landing ©Le Wagon x Xnode&lt;/p&gt;
-    &lt;/div&gt;
+      &lt;img src="images/17hi.png" alt="picture description"&gt;
+      &lt;h3&gt;17Hi&lt;/h3&gt;
+      &lt;p&gt;A night out in Shanghai and plenty of bars await. Sifting through the countless choices, how do you where to find that perfect drink? Join 17Hi club. Enjoy one free cocktail every day at bars on this app.&lt;/p&gt;
+      &lt;a href="https://itunes.apple.com/us/app/17hi/id1175998644?mt=8/"&gt;Download 17Hi&lt;/a&gt;
+
+      &lt;img src="images/airbnb.png" alt="picture description"&gt;
+      &lt;h3&gt;Airbnb&lt;/h3&gt;
+      &lt;p&gt;A worldwide online community marketplace that connects people looking to rent their homes with travelers who are looking for accommodations.&lt;/p&gt;
+      &lt;a href="https://www.airbnb.com/rooms/9289518"&gt;Stay at my place&lt;/a&gt;
+    &lt;div&gt;
+&lt;/div&gt;
 </code>
 </pre>
 
@@ -187,62 +178,39 @@ a:hover {
           <li>Then add this nice CSS code</li>
         </ul>
 <pre><code>
-#header{
-  text-align: center;
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 50%), url("images/shanghai.jpg");
-  background-size: cover;
-  padding: 150px;
-  color: white;
+
+.container{
+  width: 500px;
+  margin: 10px auto;
 }
 
 .card{
-  padding: 50px;
-  font-weight: lighter;
-  background-color: white;
-  text-align:center;
-  width:200px;
+  background: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2)
 }
-
-#footer{
-  padding: 50px;
-  background: rgb(30, 30, 30);
-  color: lightgrey;
-  text-align: center;
-  line-height: 2;
-}
-
-#footer ul {
-  padding-left:0;
-  list-style: none;
-}
-
-#footer li {
-  display: inline-block;
-  padding:0px 10px;
-}
-
-.input {
-  font-size: 18px;
-  height:50px;
-  padding:0px 15px;
-  background:white;
-  border:1px solid lightgray;
-  width:200px;
-  border-radius:3px;
-}
-
 .btn {
-  background:#D42C14;
-  color:white;
-  font-weight: bolder;
-  width:150px;
-  border:1px solid #AB2513;
+  padding: 10px;
+  border-radius: 4px;
 }
 
-.btn:hover {
-  background:#AB2513;
-  color:white;
+.btn-red {
+    background-color: #C14953;
+    color: white;
+    font-weight: 500;
+    transition: background 0s;
 }
+
+.btn-red:hover {
+    background-color: #8E5F64;
+    color: white;
+    font-weight: 500;
+    color:white;
+    transition: background 0.5s;
+}
+
 </code></pre>
       </section>
       <section class="readme-section">
@@ -255,27 +223,32 @@ a:hover {
   &lt;/head&gt;
 </code>
 </pre>
-        <p>And then in the footer</p>
+        <p>And then in a new "card"</p>
 <pre>
 <code>
+&lt;div&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-weibo"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-weixin"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="#"&gt;&lt;i class="fa fa-github"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
+&lt;/div&gt;
 </code>
 </pre>
         <p>With a bit of CSS style</p>
 
 <pre>
 <code>
-  #footer a {
-    color: lightgrey;
-    font-size: 15px;
+  .fa a {
+    color:#848FA5;
+    text-decoration: none;
   }
-  #footer a:hover {
-    color: white;
+
+  .fa a:hover {
+    color:#2D2D2A;
+    text-decoration: none;
+    transition: color 0.2s;
   }
 </code>
 </pre>
@@ -284,9 +257,8 @@ a:hover {
         <h2 class="readme-header">9. Have fun with HTML&CSS!</h2>
         <ul>
           <li>We recommend you continue back home and <a href="https://www.codecademy.com/learn/learn-html-css">complete this free 101 course</a></li>
-          <li>Tell us what you think! <a href="https://lewagonshanghai.typeform.com/to/pCKgzg">Fill in this feedback form</a> (2minutes only)</li>
-          <li>If you appreciate this workshop, <a href="http://www.meetup.com/Le-Wagon-Shanghai-Coding-Station/">leave us a review on meetup!</a>♥</li>
-          <li>Any question: <a href="mailto:shanghai@lewagon.org">get in touch</a></li>
+          <li>Tell us what you think! <a href="https://lewagonshanghai.typeform.com/to/pCKgzg">Fill in this feedback form</a> (2minutes only) ♥</li>
+          <li>Change your life, learn to code in 2 months! ESSCA Alumni will get 10% off<a href="http://lewagon.com/shanghai">Program here</a></li>
         </ul>
       </section>
     </div>
