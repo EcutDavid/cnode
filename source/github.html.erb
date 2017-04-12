@@ -10,34 +10,26 @@ title: Le Wagon 2-hour workshop
     <div class="col-xs-12 col-sm-10 col-sm-offset-1">
 
       <section class="readme-section">
-        <h2 class="readme-header">0. Welcome aboard!</h2>
-        <ul>
-          <li>Please install <a href="https://www.sublimetext.com/">SublimeText</a></li>
-          <li>Programmers do not use Word or PPT, they need a text editor for code, markup and way more...</li>
-          <li>The objective of today is to code your profile page and put it online, like the examples below. Go Go Go!!</li>
-          <li><a href="http://lewagon.github.io/html-css-challenges/04-advanced-selectors/">Example 1</a> - <a href="https://tgenaitay.github.io/profile/">Example 2</a></li>
-        </ul>
+        <h2 class="readme-header">Create a new project</h2>
+        <p>Let's create a new project for your profile page</p>
+        <code>
+          cd ~/code/USERNAME
+          mkdir profile
+        </code>
+        <p>Copy and paste your index.html, style.css files and images folder in this new profile folder.</p>
       </section>
 
       <section class="readme-section">
-        <h2 class="readme-header">1. Let's set up</h2>
-        <ol>
-          <li>Start Sublime Text. It will open a new black window.</li>
-          <li>Create a <strong>folder</strong> <code>profile</code> on your Desktop. Drag & drop this folder in the Sublime Text window.</li>
-          <li>
-            In Sublime Text left navigation:
-            <ul>
-              <li>Right click <strong>"New file"</strong></li>
-              <li>Save it as <code>index.html</code> with <strong>Cmd + S</strong> or <strong>Ctrl + S</strong></li>
-              <li>Do the same to create a <code>style.css</code> file</li>
-              <li>Then <strong>"New Folder"</strong> and create an <code>images</code> folder</li>
-            </ul>
-            </ul>
-          </li>
-          <li>Finally double click on <code>index.html</code> to open it with Chrome</li>
-        </ol>
-
-        <img src='images/setup.png' width="100%"/>
+        <h2 class="readme-header">Create the Github repo</h2>
+        <p>Init a git repo, commit your changes, add a remote origin, push it</p>
+        <code>
+          cd ~/code/USERNAME/profile
+          git init
+          git add .
+          git commit -m "my profile page"
+          git remote add origin git@github.com:USERNAME/YOURREPO.git
+          git push -u origin master
+        </code>
       </section>
 
       <section class="readme-section">
@@ -60,7 +52,6 @@ title: Le Wagon 2-hour workshop
       &lt;title&gt;Your name comes here&lt;/title&gt;
     &lt;/head&gt;
     &lt;body&gt;
-      &lt;img src="images/thibault.jpg" alt="picture description"&gt;
       &lt;h1&gt;Your name here&lt;/h1&gt;
       &lt;p&gt;The position you have/look for&lt;/p&gt;
       &lt;h2&gt;Things I like&lt;/h2&gt;
@@ -163,7 +154,7 @@ a:hover {
       &lt;h3&gt;Airbnb&lt;/h3&gt;
       &lt;p&gt;A worldwide online community marketplace that connects people looking to rent their homes with travelers who are looking for accommodations.&lt;/p&gt;
       &lt;a href="https://www.airbnb.com/rooms/9289518"&gt;Stay at my place&lt;/a&gt;
-    &lt;/div&gt;
+    &lt;div&gt;
 &lt;/div&gt;
 </code>
 </pre>
@@ -172,8 +163,9 @@ a:hover {
       <section class="readme-section">
         <h2 class="readme-header">5. Name your tags</h2>
         <ul>
-          <li>Name your blocks with <code>class</code> like <code>&lt;div class="card"&gt;</code></li>
-          <li>Name your buttons with <code>class</code> like <code>class="btn"</code></li>
+          <li>Name your header and footer with <code>id</code> like <code>&lt;div id="header"&gt;</code> and <code>&lt;div id="footer"&gt;</code></li>
+          <li>Name your features with <code>class</code> like <code>&lt;div class="card"&gt;</code></li>
+          <li>Name your buttons with <code>class</code> like <code>class="btn"</code> and use the class <code>.input</code></li>
           <li>Then add this nice CSS code</li>
         </ul>
 <pre><code>
@@ -222,7 +214,7 @@ a:hover {
   &lt;/head&gt;
 </code>
 </pre>
-        <p>And then in a new <code>card</code></p>
+        <p>And then in a new "card"</p>
 <pre>
 <code>
 &lt;div&gt;
@@ -256,8 +248,8 @@ a:hover {
         <h2 class="readme-header">9. Have fun with HTML&CSS!</h2>
         <ul>
           <li>We recommend you continue back home and <a href="https://www.codecademy.com/learn/learn-html-css">complete this free 101 course</a></li>
-          <li>Tell us what you think! <a href="https://lewagonshanghai.typeform.com/to/pCKgzg">Fill in this feedback form</a> (2minutes only)</li>
-          <li><a href="http://lewagon.com/shanghai">Change your life, learn to code in 2 months!</a><code>ESSCA Alumni will get 10% off tuition ♥</code></li>
+          <li>Tell us what you think! <a href="https://lewagonshanghai.typeform.com/to/pCKgzg">Fill in this feedback form</a> (2minutes only) ♥</li>
+          <li>Change your life, learn to code in 2 months! ESSCA Alumni will get 10% off<a href="http://lewagon.com/shanghai">Program here</a></li>
         </ul>
       </section>
     </div>
